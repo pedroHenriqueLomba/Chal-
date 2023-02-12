@@ -1,0 +1,194 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	background: url(Imagens/bg.png);
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+#principal{
+	width:95%;
+	max-width: 1200px;
+	min-width: 900px;
+	margin: 10px auto;
+}
+
+#cabecalho{
+	width: 100%;
+	background: url(Imagens/topo-imagem-principal.png) no-repeat;
+	height: 250px;
+	float: left;
+}
+
+#cabecalho h1{
+	display: inline;
+	margin-left: 12px;
+	line-height: 130px;
+}
+
+
+#cabecalho #menu{
+	width: 500px;
+	background: url(Imagens/topo-imagem-lateral.png) no-repeat;
+	height: 250px;
+	float: right;
+	padding-right: 10px;
+}
+
+#menu .lateral{
+	float: right;
+	width: 400px;
+	margin: 10px auto;
+}
+
+#menu .reserva{
+	border-top: 1px solid #B5AB56;
+	border-bottom: 1px solid #B5AB56;
+	color: #8B8448;
+	width: 97%;
+	font-size: 0.75em;
+	float: right;
+	padding: 5px;
+	line-height: 22px;
+}
+
+#menu .reserva input{
+	background: #A29750;
+	color: #F9F5B0;
+	border: none;
+	padding: 5px;
+	font-size: 0.9em;
+	float: right;
+	cursor: pointer;
+}
+
+#menu .esquerdo{
+	float: left;
+	width: 150px;
+}
+
+#menu .esquerdo ul{
+	list-style: none;
+}
+
+#menu .esquerdo li{
+	margin-top: 15px;
+	font-size: 0.95em;
+}
+
+#menu .esquerdo ul a{
+	text-decoration: none;
+	color: #8B8448;
+}
+
+#menu .esquerdo ul a:hover{
+	text-decoration: none;
+	color: #8B8448;
+	background: #FCF4BE;
+	padding: 5px;
+	margin: -5px;
+}
+
+#menu .direito{
+	float: right;
+}
+
+
+#conteudo{
+	margin-top: 5px;
+	background: url(Imagens/bg-container.png) repeat-y;
+	background-position: center;
+	float: left;
+}
+
+#conteudo .esquerdo{
+	width: 44%;
+	position: relative;
+	display: inline-block;
+	padding: 20px;
+	float: left;
+}
+
+#conteudo .esquerdo h2{
+	color: #7D7640;
+	font-size: 1.25em;
+	margin: 5px;
+	margin-top: -5px;
+}
+
+#conteudo .esquerdo p{
+	font-size: 1.05em;
+	margin: 5px;
+}
+
+#conteudo .direito{
+	width: 47%;
+	position: relative;
+	display: inline;
+	float: right;
+	padding-top: 15px;
+
+}
+
+#conteudo .direito ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float: left;d;
+	width: 100%;
+}
+
+#conteudo .direito li{
+	float: left;
+	border-bottom: 1px solid white;
+	width: 95%;
+}
+
+#conteudo .direito li img{
+	width: 150px;
+	float: left;
+	margin: 0px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#conteudo .direito h2{
+	color: #615B2D;
+	margin: 0px;
+	padding: 5px;
+	font-size: 1.4em;
+	padding-left: 160px;
+	width: 300px;
+}
+
+#conteudo .direito a{
+	text-decoration: none;
+	display: block;
+	float: left;
+	width: 100%;
+	background: url(Imagens/ornamento.png) no-repeat right top;
+}
+
+#conteudo .direito a:hover{
+	background: #efeacc url(Imagens/ornamento.png) no-repeat right top;
+	}
+
+#conteudo .direito p{
+	color: black;
+	padding-left: 160px;
+}
+
+#rodape{
+	float: left;
+	width: 100%;
+	clear: both;
+	background: #FFFFFF;
+	color: #7D7640;
+	font-weight: bold;
+	line-height: 2em;
+	text-indent: 20px;
+}
